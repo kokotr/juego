@@ -8,7 +8,7 @@ import javax.swing.*;
 
 
 
-public class juego extends JFrame implements ActionListener{
+public class juego extends JFrame {
 
 
 private JLabel texto;
@@ -31,15 +31,16 @@ add(texto);
 }
 
 
-public void actionPerformed(ActionEvent s){
+/*public void actionPerformed(ActionEvent s){
 
 
 
-}
+}*/
+
 
 public static void main(String[]args){
 
-juego uno=new juego(){
+juego uno=new juego();
 
 uno.setSize(500,500);
 
@@ -55,17 +56,10 @@ uno.setVisible(true);
 
 uno.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-
-
-
-
 }
 
 
 
-
-
-}
 
 }
 
